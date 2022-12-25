@@ -1,16 +1,16 @@
-import hellochart from 'customcharts/hellochart'
+import versus from 'customcharts/versus'
 import data from '../datasets/hello.csv'
 
 export default {
-  chart: hellochart,
+  chart: versus,
   data,
   dataTypes: {
     hello_column: 'string',
   },
   mapping: {
-    name: { value: ['hello_column'] },
+    groups: { value: ['hello_column'] },
   },
   visualOptions: {
-    color: 'green'
+    color: 'green',
   },
 }

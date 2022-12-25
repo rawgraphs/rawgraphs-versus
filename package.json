@@ -1,7 +1,7 @@
 {
-  "name": "custom-rawcharts-template",
+  "name": "rawgraphs-versus",
   "version": "0.2.0",
-  "description": "Custom Raw Chart Template",
+  "description": "Versus visual model",
   "jsdelivr": "lib/index.umd.js",
   "unpkg": "lib/index.umd.js",
   "main": "lib/index.cjs.js",
@@ -17,7 +17,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "css": "^3.0.0",
-    "d3": "^6.5.0"
+    "d3": "^7.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",

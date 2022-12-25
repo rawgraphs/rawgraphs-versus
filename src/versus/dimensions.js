@@ -1,7 +1,7 @@
 export const dimensions = [
   {
-    id: 'name',
-    name: 'Name',
+    id: 'groups',
+    name: 'Groups',
     validTypes: ['string'],
     required: true,
     operation: 'get',

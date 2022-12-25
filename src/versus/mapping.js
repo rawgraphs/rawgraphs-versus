@@ -1,3 +1,3 @@
 export const mapData = {
-  name: 'get',
+  groups: 'get',
 }
