@@ -5,12 +5,14 @@ export default {
   chart: versus,
   data,
   dataTypes: {
-    hello_column: 'string',
+    faculty: 'string',
+    keyword: 'string',
+    strength: 'number',
   },
   mapping: {
-    groups: { value: ['hello_column'] },
+    group: { value: ['faculty'] },
+    item: { value: ['keyword'] },
+    strength: { value: ['strength'] },
   },
-  visualOptions: {
-    color: 'green',
-  },
+  visualOptions: {},
 }

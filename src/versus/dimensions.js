@@ -1,9 +1,22 @@
 export const dimensions = [
   {
-    id: 'groups',
+    id: 'group',
     name: 'Groups',
-    validTypes: ['string'],
+    validTypes: ['number', 'date', 'string'],
     required: true,
-    operation: 'get',
+  },
+  {
+    id: 'item',
+    name: 'Items',
+    validTypes: ['number', 'date', 'string'],
+    required: true,
+  },
+  {
+    id: 'strength',
+    name: 'Strength',
+    validTypes: ['number'],
+    required: false,
+    aggregation: true,
+    aggregationDefault: 'sum',
   },
 ]

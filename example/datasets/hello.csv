@@ -1,4 +1,1444 @@
-hello_column
-Hello
-World
-Raw!!!
+keyword,faculty,strength
+sustainability,engineering,215
+sustainability,architecture,177
+sustainability,design,86
+Milan,engineering,39
+Milan,architecture,321
+Milan,design,89
+landscape,engineering,9
+landscape,architecture,284
+landscape,design,28
+museum,engineering,13
+museum,architecture,238
+museum,design,50
+public space,engineering,4
+public space,architecture,203
+public space,design,34
+energy efficiency,engineering,164
+energy efficiency,architecture,22
+energy efficiency,design,1
+optimization,engineering,181
+optimization,architecture,2
+optimization,design,3
+reuse,engineering,12
+reuse,architecture,142
+reuse,design,30
+architecture,engineering,16
+architecture,architecture,142
+architecture,design,18
+CFD,engineering,172
+CFD,architecture,1
+CFD,design,0
+innovation,engineering,88
+innovation,architecture,16
+innovation,design,59
+social housing,engineering,28
+social housing,architecture,105
+social housing,design,10
+energy,engineering,93
+energy,architecture,30
+energy,design,15
+simulation,engineering,136
+simulation,architecture,2
+simulation,design,0
+park,engineering,11
+park,architecture,102
+park,design,13
+library,engineering,21
+library,architecture,92
+library,design,12
+model,engineering,110
+model,architecture,2
+model,design,6
+housing,engineering,13
+housing,architecture,93
+housing,design,3
+communication,engineering,14
+communication,architecture,9
+communication,design,86
+city,engineering,5
+city,architecture,59
+city,design,41
+supply chain,engineering,100
+supply chain,architecture,0
+supply chain,design,2
+redevelopment,engineering,13
+redevelopment,architecture,77
+redevelopment,design,8
+waterfront,engineering,5
+waterfront,architecture,84
+waterfront,design,8
+water,engineering,24
+water,architecture,59
+water,design,14
+fashion,engineering,25
+fashion,architecture,8
+fashion,design,62
+Italy,engineering,55
+Italy,architecture,18
+Italy,design,22
+wood,engineering,25
+wood,architecture,50
+wood,design,20
+infrastructure,engineering,14
+infrastructure,architecture,78
+infrastructure,design,2
+performance,engineering,74
+performance,architecture,8
+performance,design,9
+social network,engineering,54
+social network,architecture,9
+social network,design,48
+project,engineering,29
+project,architecture,48
+project,design,13
+culture,engineering,12
+culture,architecture,43
+culture,design,34
+control,engineering,86
+control,architecture,2
+control,design,1
+integration,engineering,42
+integration,architecture,34
+integration,design,11
+urban regeneration,engineering,5
+urban regeneration,architecture,78
+urban regeneration,design,4
+mobile,engineering,67
+mobile,architecture,1
+mobile,design,18
+efficiency,engineering,81
+efficiency,architecture,2
+efficiency,design,3
+China,engineering,22
+China,architecture,25
+China,design,37
+maintenance,engineering,76
+maintenance,architecture,6
+maintenance,design,1
+urban,engineering,9
+urban,architecture,50
+urban,design,24
+earthquake,engineering,36
+earthquake,architecture,36
+earthquake,design,11
+school,engineering,18
+school,architecture,48
+school,design,15
+exhibition,engineering,2
+exhibition,architecture,17
+exhibition,design,62
+food,engineering,16
+food,architecture,13
+food,design,51
+analysis,engineering,57
+analysis,architecture,13
+analysis,design,10
+development,engineering,29
+development,architecture,34
+development,design,15
+university,engineering,12
+university,architecture,55
+university,design,10
+network,engineering,30
+network,architecture,18
+network,design,29
+flexibility,engineering,23
+flexibility,architecture,45
+flexibility,design,9
+renewable energy,engineering,67
+renewable energy,architecture,6
+renewable energy,design,3
+safety,engineering,61
+safety,architecture,5
+safety,design,10
+strategy,engineering,42
+strategy,architecture,17
+strategy,design,17
+concrete,engineering,52
+concrete,architecture,19
+concrete,design,5
+LCA,engineering,63
+LCA,architecture,11
+LCA,design,1
+art,engineering,4
+art,architecture,33
+art,design,38
+tourism,engineering,15
+tourism,architecture,26
+tourism,design,32
+requalification,engineering,10
+requalification,architecture,57
+requalification,design,5
+photovoltaic,engineering,65
+photovoltaic,architecture,3
+photovoltaic,design,4
+nature,engineering,7
+nature,architecture,42
+nature,design,22
+social,engineering,22
+social,architecture,20
+social,design,28
+identity,engineering,2
+identity,architecture,27
+identity,design,40
+music,engineering,12
+music,architecture,19
+music,design,37
+green,engineering,19
+green,architecture,35
+green,design,14
+risk management,engineering,65
+risk management,architecture,1
+risk management,design,1
+recovery,engineering,20
+recovery,architecture,37
+recovery,design,10
+conservation,engineering,7
+conservation,architecture,56
+conservation,design,4
+restoration,engineering,10
+restoration,architecture,56
+restoration,design,0
+management,engineering,51
+management,architecture,14
+management,design,1
+environment,engineering,24
+environment,architecture,32
+environment,design,10
+memory,engineering,7
+memory,architecture,35
+memory,design,24
+technology,engineering,20
+technology,architecture,23
+technology,design,22
+territory,engineering,2
+territory,architecture,29
+territory,design,34
+monitoring,engineering,50
+monitoring,architecture,7
+monitoring,design,7
+system,engineering,26
+system,architecture,8
+system,design,30
+Bovisa,engineering,1
+Bovisa,architecture,52
+Bovisa,design,11
+market,engineering,21
+market,architecture,30
+market,design,13
+refurbishment,engineering,38
+refurbishment,architecture,25
+refurbishment,design,1
+children,engineering,8
+children,architecture,13
+children,design,43
+risk,engineering,62
+risk,architecture,2
+risk,design,0
+mobility,engineering,21
+mobility,architecture,24
+mobility,design,18
+BIM,engineering,43
+BIM,architecture,20
+BIM,design,0
+urban planning,engineering,4
+urban planning,architecture,56
+urban planning,design,3
+ICT,engineering,53
+ICT,architecture,6
+ICT,design,3
+service,engineering,16
+service,architecture,2
+service,design,43
+fatigue,engineering,61
+fatigue,architecture,0
+fatigue,design,0
+urban design,engineering,11
+urban design,architecture,44
+urban design,design,5
+community,engineering,2
+community,architecture,16
+community,design,42
+modeling,engineering,94
+modeling,architecture,3
+modeling,design,0
+station,engineering,5
+station,architecture,50
+station,design,4
+tower,engineering,11
+tower,architecture,46
+tower,design,2
+project management,engineering,53
+project management,architecture,5
+project management,design,1
+collaboration,engineering,29
+collaboration,architecture,3
+collaboration,design,26
+space,engineering,10
+space,architecture,31
+space,design,17
+interaction,engineering,13
+interaction,architecture,5
+interaction,design,66
+FEM,engineering,56
+FEM,architecture,1
+FEM,design,0
+planning,engineering,31
+planning,architecture,26
+planning,design,0
+sport,engineering,9
+sport,architecture,31
+sport,design,17
+education,engineering,12
+education,architecture,11
+education,design,33
+tissue engineering,engineering,56
+tissue engineering,architecture,0
+tissue engineering,design,0
+Android,engineering,54
+Android,architecture,0
+Android,design,2
+history,engineering,3
+history,architecture,36
+history,design,17
+hotel,engineering,16
+hotel,architecture,35
+hotel,design,5
+quality,engineering,39
+quality,architecture,11
+quality,design,6
+regeneration,engineering,8
+regeneration,architecture,45
+regeneration,design,2
+social media,engineering,37
+social media,architecture,2
+social media,design,15
+railway,engineering,13
+railway,architecture,39
+railway,design,1
+smartphone,engineering,41
+smartphone,architecture,0
+smartphone,design,12
+light,engineering,5
+light,architecture,18
+light,design,30
+cinema,engineering,2
+cinema,architecture,15
+cinema,design,36
+cogeneration,engineering,50
+cogeneration,architecture,2
+cogeneration,design,0
+experience,engineering,6
+experience,architecture,4
+experience,design,41
+finite elements,engineering,50
+finite elements,architecture,1
+finite elements,design,0
+supply chain management,engineering,51
+supply chain management,architecture,0
+supply chain management,design,0
+retail,engineering,25
+retail,architecture,5
+retail,design,21
+square,engineering,4
+square,architecture,41
+square,design,6
+FPGA,engineering,51
+FPGA,architecture,0
+FPGA,design,0
+real estate,engineering,30
+real estate,architecture,18
+real estate,design,2
+Berlin,engineering,1
+Berlin,architecture,49
+Berlin,design,0
+energy saving,engineering,40
+energy saving,architecture,8
+energy saving,design,2
+service design,engineering,1
+service design,architecture,0
+service design,design,49
+masterplan,engineering,6
+masterplan,architecture,44
+masterplan,design,0
+classification,engineering,46
+classification,architecture,1
+classification,design,3
+Expo,engineering,11
+Expo,architecture,34
+Expo,design,5
+Expo 2015,engineering,3
+Expo 2015,architecture,38
+Expo 2015,design,9
+cultural heritage,engineering,8
+cultural heritage,architecture,24
+cultural heritage,design,17
+app,engineering,53
+app,architecture,2
+app,design,70
+steel,engineering,37
+steel,architecture,12
+steel,design,0
+accessibility,engineering,12
+accessibility,architecture,28
+accessibility,design,8
+business model,engineering,45
+business model,architecture,0
+business model,design,3
+digital,engineering,17
+digital,architecture,5
+digital,design,26
+archeology,engineering,1
+archeology,architecture,46
+archeology,design,1
+connection,engineering,11
+connection,architecture,54
+connection,design,11
+process,engineering,29
+process,architecture,5
+process,design,13
+comfort,engineering,35
+comfort,architecture,7
+comfort,design,5
+biomass,engineering,44
+biomass,architecture,2
+biomass,design,1
+agriculture,engineering,6
+agriculture,architecture,34
+agriculture,design,7
+smart city,engineering,21
+smart city,architecture,12
+smart city,design,13
+temporary,engineering,3
+temporary,architecture,22
+temporary,design,21
+time,engineering,7
+time,architecture,13
+time,design,26
+marketing,engineering,27
+marketing,architecture,2
+marketing,design,17
+research,engineering,6
+research,architecture,21
+research,design,18
+life cycle assessment,engineering,31
+life cycle assessment,architecture,12
+life cycle assessment,design,2
+environmental sustainability,engineering,28
+environmental sustainability,architecture,11
+environmental sustainability,design,5
+logistics,engineering,40
+logistics,architecture,2
+logistics,design,2
+laser,engineering,40
+laser,architecture,0
+laser,design,4
+characterization,engineering,43
+characterization,architecture,1
+characterization,design,0
+brand,engineering,3
+brand,architecture,2
+brand,design,39
+finite element method,engineering,44
+finite element method,architecture,0
+finite element method,design,0
+rehabilitation,engineering,22
+rehabilitation,architecture,18
+rehabilitation,design,3
+facility management,engineering,37
+facility management,architecture,6
+facility management,design,0
+hospital,engineering,19
+hospital,architecture,19
+hospital,design,5
+auditorium,engineering,8
+auditorium,architecture,35
+auditorium,design,0
+storytelling,engineering,4
+storytelling,architecture,0
+storytelling,design,38
+climate change,engineering,31
+climate change,architecture,9
+climate change,design,2
+computational fluid dynamics,engineering,42
+computational fluid dynamics,architecture,0
+computational fluid dynamics,design,0
+framework,engineering,40
+framework,architecture,1
+framework,design,1
+security,engineering,35
+security,architecture,3
+security,design,3
+healthcare,engineering,34
+healthcare,architecture,4
+healthcare,design,3
+bicycle,engineering,9
+bicycle,architecture,6
+bicycle,design,26
+smart grid,engineering,39
+smart grid,architecture,2
+smart grid,design,0
+perception,engineering,1
+perception,architecture,15
+perception,design,25
+nanoparticles,engineering,41
+nanoparticles,architecture,0
+nanoparticles,design,0
+Porta Genova,engineering,0
+Porta Genova,architecture,40
+Porta Genova,design,0
+transport,engineering,21
+transport,architecture,9
+transport,design,10
+new product development,engineering,40
+new product development,architecture,0
+new product development,design,0
+underground,engineering,9
+underground,architecture,22
+underground,design,9
+crowdsourcing,engineering,22
+crowdsourcing,architecture,0
+crowdsourcing,design,18
+interior design,engineering,0
+interior design,architecture,13
+interior design,design,27
+modular,engineering,7
+modular,architecture,14
+modular,design,19
+transformation,engineering,3
+transformation,architecture,30
+transformation,design,6
+luxury,engineering,21
+luxury,architecture,0
+luxury,design,18
+materials,engineering,9
+materials,architecture,6
+materials,design,24
+combustion,engineering,39
+combustion,architecture,0
+combustion,design,0
+river,engineering,3
+river,architecture,35
+river,design,1
+corrosion,engineering,39
+corrosion,architecture,0
+corrosion,design,0
+emergency,engineering,13
+emergency,architecture,16
+emergency,design,9
+participation,engineering,3
+participation,architecture,21
+participation,design,14
+reconstruction,engineering,6
+reconstruction,architecture,23
+reconstruction,design,9
+hydrogen,engineering,38
+hydrogen,architecture,0
+hydrogen,design,0
+Alzheimer,engineering,2
+Alzheimer,architecture,2
+Alzheimer,design,34
+sustainable development,engineering,22
+sustainable development,architecture,15
+sustainable development,design,1
+renovation,engineering,7
+renovation,architecture,29
+renovation,design,2
+MEMS,engineering,36
+MEMS,architecture,0
+MEMS,design,1
+natural gas,engineering,37
+natural gas,architecture,0
+natural gas,design,0
+social innovation,engineering,4
+social innovation,architecture,3
+social innovation,design,30
+temperature,engineering,37
+temperature,architecture,0
+temperature,design,0
+packaging,engineering,8
+packaging,architecture,2
+packaging,design,27
+furniture,engineering,4
+furniture,architecture,2
+furniture,design,31
+game theory,engineering,35
+game theory,architecture,0
+game theory,design,2
+structure,engineering,20
+structure,architecture,13
+structure,design,4
+preservation,engineering,2
+preservation,architecture,31
+preservation,design,3
+Twitter,engineering,28
+Twitter,architecture,1
+Twitter,design,7
+evaluation,engineering,23
+evaluation,architecture,12
+evaluation,design,1
+platform,engineering,12
+platform,architecture,4
+platform,design,20
+automotive,engineering,30
+automotive,architecture,0
+automotive,design,6
+campus,engineering,4
+campus,architecture,31
+campus,design,1
+sharing,engineering,4
+sharing,architecture,4
+sharing,design,28
+photography,engineering,0
+photography,architecture,14
+photography,design,22
+Bergamo,engineering,5
+Bergamo,architecture,27
+Bergamo,design,3
+information,engineering,16
+information,architecture,3
+information,design,16
+residential,engineering,18
+residential,architecture,17
+residential,design,0
+low cost,engineering,6
+low cost,architecture,18
+low cost,design,11
+health,engineering,16
+health,architecture,9
+health,design,10
+cultural center,engineering,5
+cultural center,architecture,27
+cultural center,design,3
+real time,engineering,34
+real time,architecture,0
+real time,design,1
+building,engineering,20
+building,architecture,15
+building,design,0
+database,engineering,26
+database,architecture,3
+database,design,6
+lean,engineering,34
+lean,architecture,0
+lean,design,1
+web,engineering,12
+web,architecture,2
+web,design,20
+bridge,engineering,9
+bridge,architecture,22
+bridge,design,3
+Shanghai,engineering,2
+Shanghai,architecture,23
+Shanghai,design,9
+wine,engineering,3
+wine,architecture,20
+wine,design,11
+clustering,engineering,34
+clustering,architecture,0
+clustering,design,0
+fire,engineering,32
+fire,architecture,1
+fire,design,1
+New York,engineering,1
+New York,architecture,32
+New York,design,1
+hybrid,engineering,21
+hybrid,architecture,6
+hybrid,design,7
+stadium,engineering,1
+stadium,architecture,33
+stadium,design,0
+game,engineering,4
+game,architecture,1
+game,design,29
+calibration,engineering,34
+calibration,architecture,0
+calibration,design,0
+Africa,engineering,13
+Africa,architecture,18
+Africa,design,3
+wellness,engineering,11
+wellness,architecture,11
+wellness,design,12
+algorithm,engineering,32
+algorithm,architecture,1
+algorithm,design,0
+survey,engineering,20
+survey,architecture,11
+survey,design,2
+production,engineering,20
+production,architecture,4
+production,design,9
+construction,engineering,20
+construction,architecture,10
+construction,design,3
+robotics,engineering,32
+robotics,architecture,0
+robotics,design,1
+sensitivity analysis,engineering,32
+sensitivity analysis,architecture,1
+sensitivity analysis,design,0
+robot,engineering,27
+robot,architecture,0
+robot,design,5
+augmented reality,engineering,12
+augmented reality,architecture,4
+augmented reality,design,16
+finite element analysis,engineering,32
+finite element analysis,architecture,0
+finite element analysis,design,0
+L'Aquila,engineering,8
+L'Aquila,architecture,12
+L'Aquila,design,12
+sentiment analysis,engineering,32
+sentiment analysis,architecture,0
+sentiment analysis,design,0
+helicopter,engineering,31
+helicopter,architecture,0
+helicopter,design,1
+impact,engineering,32
+impact,architecture,0
+impact,design,0
+tradition,engineering,0
+tradition,architecture,10
+tradition,design,22
+ontology,engineering,32
+ontology,architecture,0
+ontology,design,0
+creativity,engineering,3
+creativity,architecture,7
+creativity,design,22
+machine learning,engineering,32
+machine learning,architecture,0
+machine learning,design,0
+Europe,engineering,14
+Europe,architecture,18
+Europe,design,0
+residence,engineering,3
+residence,architecture,28
+residence,design,1
+optimal control,engineering,32
+optimal control,architecture,0
+optimal control,design,0
+SPAD,engineering,31
+SPAD,architecture,0
+SPAD,design,0
+masonry,engineering,28
+masonry,architecture,3
+masonry,design,0
+services,engineering,10
+services,architecture,9
+services,design,12
+castle,engineering,5
+castle,architecture,25
+castle,design,1
+startup,engineering,20
+startup,architecture,1
+startup,design,10
+energy consumption,engineering,30
+energy consumption,architecture,1
+energy consumption,design,0
+genetic algorithm,engineering,49
+genetic algorithm,architecture,2
+genetic algorithm,design,0
+open innovation,engineering,22
+open innovation,architecture,0
+open innovation,design,8
+theater,engineering,6
+theater,architecture,63
+theater,design,15
+degradation,engineering,24
+degradation,architecture,5
+degradation,design,1
+additive manufacturing,engineering,17
+additive manufacturing,architecture,1
+additive manufacturing,design,12
+case study,engineering,25
+case study,architecture,4
+case study,design,1
+e-commerce,engineering,18
+e-commerce,architecture,0
+e-commerce,design,12
+industry,engineering,11
+industry,architecture,17
+industry,design,2
+mapping,engineering,13
+mapping,architecture,9
+mapping,design,8
+garden,engineering,1
+garden,architecture,19
+garden,design,10
+biogas,engineering,27
+biogas,architecture,2
+biogas,design,1
+cloud computing,engineering,29
+cloud computing,architecture,0
+cloud computing,design,1
+church,engineering,5
+church,architecture,23
+church,design,2
+Piacenza,engineering,2
+Piacenza,architecture,27
+Piacenza,design,1
+reliability,engineering,30
+reliability,architecture,0
+reliability,design,0
+drug delivery,engineering,29
+drug delivery,architecture,0
+drug delivery,design,0
+wind,engineering,106
+wind,architecture,4
+wind,design,1
+stability,engineering,29
+stability,architecture,0
+stability,design,0
+crowdfunding,engineering,18
+crowdfunding,architecture,1
+crowdfunding,design,10
+contemporary art,engineering,1
+contemporary art,architecture,10
+contemporary art,design,18
+software,engineering,22
+software,architecture,2
+software,design,5
+OpenFoam,engineering,29
+OpenFoam,architecture,0
+OpenFoam,design,0
+Istanbul,engineering,1
+Istanbul,architecture,25
+Istanbul,design,3
+interface,engineering,14
+interface,architecture,1
+interface,design,14
+waste,engineering,14
+waste,architecture,7
+waste,design,8
+railway station,engineering,3
+railway station,architecture,21
+railway station,design,5
+governance,engineering,17
+governance,architecture,12
+governance,design,0
+uncertainty,engineering,28
+uncertainty,architecture,0
+uncertainty,design,0
+corporate governance,engineering,28
+corporate governance,architecture,0
+corporate governance,design,0
+sensors,engineering,22
+sensors,architecture,0
+sensors,design,6
+airport,engineering,14
+airport,architecture,11
+airport,design,3
+path,engineering,3
+path,architecture,15
+path,design,10
+stent,engineering,28
+stent,architecture,0
+stent,design,0
+GIS,engineering,21
+GIS,architecture,7
+GIS,design,0
+permeability,engineering,19
+permeability,architecture,9
+permeability,design,0
+riqualification,engineering,1
+riqualification,architecture,24
+riqualification,design,3
+textile,engineering,9
+textile,architecture,7
+textile,design,12
+protection,engineering,10
+protection,architecture,6
+protection,design,11
+OpenFOAM,engineering,27
+OpenFOAM,architecture,0
+OpenFOAM,design,0
+identification,engineering,25
+identification,architecture,0
+identification,design,2
+artificial intelligence,engineering,26
+artificial intelligence,architecture,0
+artificial intelligence,design,1
+public administration,engineering,21
+public administration,architecture,3
+public administration,design,3
+value,engineering,12
+value,architecture,4
+value,design,11
+segmentation,engineering,27
+segmentation,architecture,0
+segmentation,design,0
+creep,engineering,27
+creep,architecture,0
+creep,design,0
+prefabrication,engineering,10
+prefabrication,architecture,15
+prefabrication,design,2
+workshop,engineering,2
+workshop,architecture,4
+workshop,design,21
+complexity,engineering,8
+complexity,architecture,9
+complexity,design,10
+glass,engineering,12
+glass,architecture,12
+glass,design,3
+modularity,engineering,9
+modularity,architecture,13
+modularity,design,5
+internet,engineering,10
+internet,architecture,2
+internet,design,14
+3D printing,engineering,13
+3D printing,architecture,0
+3D printing,design,13
+density,engineering,10
+density,architecture,16
+density,design,0
+sound,engineering,5
+sound,architecture,7
+sound,design,14
+shape memory alloys,engineering,24
+shape memory alloys,architecture,1
+shape memory alloys,design,1
+lean manufacturing,engineering,26
+lean manufacturing,architecture,0
+lean manufacturing,design,0
+Verona,engineering,2
+Verona,architecture,23
+Verona,design,1
+container,engineering,7
+container,architecture,13
+container,design,6
+future,engineering,2
+future,architecture,10
+future,design,14
+data mining,engineering,25
+data mining,architecture,0
+data mining,design,1
+sustainable mobility,engineering,10
+sustainable mobility,architecture,8
+sustainable mobility,design,8
+spa,engineering,8
+spa,architecture,18
+spa,design,0
+heritage,engineering,2
+heritage,architecture,16
+heritage,design,8
+Turkey,engineering,12
+Turkey,architecture,11
+Turkey,design,3
+titanium dioxide,engineering,22
+titanium dioxide,architecture,0
+titanium dioxide,design,4
+visualization,engineering,12
+visualization,architecture,0
+visualization,design,14
+energy management,engineering,26
+energy management,architecture,0
+energy management,design,0
+localization,engineering,25
+localization,architecture,1
+localization,design,0
+tablet,engineering,13
+tablet,architecture,0
+tablet,design,13
+manufacturing,engineering,22
+manufacturing,architecture,0
+manufacturing,design,4
+office,engineering,5
+office,architecture,10
+office,design,11
+learning,engineering,17
+learning,architecture,3
+learning,design,6
+composite,engineering,84
+composite,architecture,1
+composite,design,6
+skyscraper,engineering,7
+skyscraper,architecture,18
+skyscraper,design,0
+student housing,engineering,0
+student housing,architecture,21
+student housing,design,4
+port,engineering,2
+port,architecture,22
+port,design,1
+enterprise risk management,engineering,25
+enterprise risk management,architecture,0
+enterprise risk management,design,0
+scaffold,engineering,23
+scaffold,architecture,2
+scaffold,design,0
+CO2,engineering,25
+CO2,architecture,0
+CO2,design,0
+electrodeposition,engineering,25
+electrodeposition,architecture,0
+electrodeposition,design,0
+numerical model,engineering,25
+numerical model,architecture,0
+numerical model,design,0
+urban park,engineering,4
+urban park,architecture,18
+urban park,design,3
+business plan,engineering,24
+business plan,architecture,1
+business plan,design,0
+recycle,engineering,29
+recycle,architecture,21
+recycle,design,18
+numerical simulation,engineering,25
+numerical simulation,architecture,0
+numerical simulation,design,0
+map,engineering,4
+map,architecture,4
+map,design,17
+hospitality,engineering,1
+hospitality,architecture,13
+hospitality,design,11
+Pavia,engineering,0
+Pavia,architecture,25
+Pavia,design,0
+risk analysis,engineering,25
+risk analysis,architecture,0
+risk analysis,design,0
+solar energy,engineering,20
+solar energy,architecture,4
+solar energy,design,1
+tunnel,engineering,23
+tunnel,architecture,1
+tunnel,design,1
+scheduling,engineering,25
+scheduling,architecture,0
+scheduling,design,0
+product,engineering,8
+product,architecture,0
+product,design,16
+anaerobic digestion,engineering,24
+anaerobic digestion,architecture,0
+anaerobic digestion,design,0
+durability,engineering,23
+durability,architecture,0
+durability,design,1
+model predictive control,engineering,24
+model predictive control,architecture,0
+model predictive control,design,0
+computer vision,engineering,24
+computer vision,architecture,0
+computer vision,design,0
+heat transfer,engineering,24
+heat transfer,architecture,0
+heat transfer,design,0
+damage,engineering,23
+damage,architecture,1
+damage,design,0
+laboratory,engineering,9
+laboratory,architecture,7
+laboratory,design,8
+ecomuseum,engineering,1
+ecomuseum,architecture,15
+ecomuseum,design,8
+linear park,engineering,0
+linear park,architecture,21
+linear park,design,3
+venture capital,engineering,24
+venture capital,architecture,0
+venture capital,design,0
+biodiversity,engineering,4
+biodiversity,architecture,16
+biodiversity,design,4
+turbulence,engineering,24
+turbulence,architecture,0
+turbulence,design,0
+seismic,engineering,23
+seismic,architecture,1
+seismic,design,0
+swimming pool,engineering,7
+swimming pool,architecture,16
+swimming pool,design,1
+Brazil,engineering,10
+Brazil,architecture,6
+Brazil,design,8
+co-design,engineering,5
+co-design,architecture,0
+co-design,design,19
+validation,engineering,23
+validation,architecture,0
+validation,design,1
+microfluidics,engineering,24
+microfluidics,architecture,0
+microfluidics,design,0
+context,engineering,12
+context,architecture,11
+context,design,1
+outsourcing,engineering,23
+outsourcing,architecture,1
+outsourcing,design,0
+society,engineering,4
+society,architecture,9
+society,design,11
+distributed generation,engineering,24
+distributed generation,architecture,0
+distributed generation,design,0
+urbanism,engineering,0
+urbanism,architecture,24
+urbanism,design,0
+hydrogels,engineering,24
+hydrogels,architecture,0
+hydrogels,design,0
+lake,engineering,5
+lake,architecture,18
+lake,design,1
+noise,engineering,16
+noise,architecture,3
+noise,design,5
+aluminum,engineering,20
+aluminum,architecture,0
+aluminum,design,4
+resilience,engineering,12
+resilience,architecture,12
+resilience,design,0
+Colombia,engineering,10
+Colombia,architecture,4
+Colombia,design,9
+image processing,engineering,23
+image processing,architecture,0
+image processing,design,0
+Como,engineering,5
+Como,architecture,16
+Como,design,2
+urban agriculture,engineering,2
+urban agriculture,architecture,20
+urban agriculture,design,1
+cooperation,engineering,8
+cooperation,architecture,6
+cooperation,design,9
+electric vehicle,engineering,20
+electric vehicle,architecture,0
+electric vehicle,design,3
+advertising,engineering,7
+advertising,architecture,0
+advertising,design,16
+threshold,engineering,2
+threshold,architecture,16
+threshold,design,5
+simulator,engineering,23
+simulator,architecture,0
+simulator,design,0
+heat pump,engineering,22
+heat pump,architecture,1
+heat pump,design,0
+greenway,engineering,2
+greenway,architecture,19
+greenway,design,2
+digital image correlation,engineering,23
+digital image correlation,architecture,0
+digital image correlation,design,0
+engineering,engineering,11
+engineering,architecture,2
+engineering,design,10
+ruins,engineering,0
+ruins,architecture,14
+ruins,design,9
+Monte Carlo,engineering,23
+Monte Carlo,architecture,0
+Monte Carlo,design,0
+KPI,engineering,23
+KPI,architecture,0
+KPI,design,0
+porosity,engineering,18
+porosity,architecture,4
+porosity,design,1
+bioreactor,engineering,22
+bioreactor,architecture,1
+bioreactor,design,0
+TCSPC,engineering,23
+TCSPC,architecture,0
+TCSPC,design,0
+big data,engineering,20
+big data,architecture,0
+big data,design,3
+open source,engineering,8
+open source,architecture,2
+open source,design,13
+internationalization,engineering,22
+internationalization,architecture,0
+internationalization,design,1
+power,engineering,21
+power,architecture,0
+power,design,2
+multichannel,engineering,21
+multichannel,architecture,0
+multichannel,design,2
+new media,engineering,5
+new media,architecture,1
+new media,design,17
+test,engineering,18
+test,architecture,0
+test,design,4
+urban sprawl,engineering,7
+urban sprawl,architecture,14
+urban sprawl,design,1
+dynamic,engineering,38
+dynamic,architecture,4
+dynamic,design,4
+urban transformation,engineering,0
+urban transformation,architecture,22
+urban transformation,design,0
+wayfinding,engineering,0
+wayfinding,architecture,2
+wayfinding,design,20
+diffusion,engineering,20
+diffusion,architecture,0
+diffusion,design,2
+SME,engineering,21
+SME,architecture,0
+SME,design,1
+graphene,engineering,22
+graphene,architecture,0
+graphene,design,0
+hub,engineering,8
+hub,architecture,11
+hub,design,3
+layout,engineering,18
+layout,architecture,1
+layout,design,3
+models,engineering,16
+models,architecture,2
+models,design,4
+competition,engineering,11
+competition,architecture,11
+competition,design,0
+product service system,engineering,9
+product service system,architecture,0
+product service system,design,13
+turbine,engineering,21
+turbine,architecture,1
+turbine,design,0
+reinforced concrete,engineering,20
+reinforced concrete,architecture,1
+reinforced concrete,design,1
+dynamic analysis,engineering,22
+dynamic analysis,architecture,0
+dynamic analysis,design,0
+immigration,engineering,3
+immigration,architecture,13
+immigration,design,6
+data visualization,engineering,6
+data visualization,architecture,0
+data visualization,design,16
+prediction,engineering,22
+prediction,architecture,0
+prediction,design,0
+feasibility study,engineering,18
+feasibility study,architecture,4
+feasibility study,design,0
+hybrid propulsion,engineering,22
+hybrid propulsion,architecture,0
+hybrid propulsion,design,0
+coating,engineering,20
+coating,architecture,0
+coating,design,2
+LTE,engineering,22
+LTE,architecture,0
+LTE,design,0
+electrospinning,engineering,22
+electrospinning,architecture,0
+electrospinning,design,0
+Sesto San Giovanni,engineering,3
+Sesto San Giovanni,architecture,18
+Sesto San Giovanni,design,1
+industrial,engineering,4
+industrial,architecture,12
+industrial,design,6
+factory,engineering,1
+factory,architecture,13
+factory,design,8
+sea,engineering,1
+sea,architecture,16
+sea,design,5
+Facebook,engineering,14
+Facebook,architecture,0
+Facebook,design,7
+investment,engineering,17
+investment,architecture,3
+investment,design,1
+mass customization,engineering,17
+mass customization,architecture,0
+mass customization,design,4
+Portugal,engineering,5
+Portugal,architecture,13
+Portugal,design,3
+mechanical properties,engineering,21
+mechanical properties,architecture,0
+mechanical properties,design,0
+industrial archeology,engineering,2
+industrial archeology,architecture,16
+industrial archeology,design,3
+Arduino,engineering,12
+Arduino,architecture,0
+Arduino,design,9
+SCR,engineering,21
+SCR,architecture,0
+SCR,design,0
+lighting,engineering,4
+lighting,architecture,6
+lighting,design,11
+modal analysis,engineering,21
+modal analysis,architecture,0
+modal analysis,design,0
+kinetics,engineering,21
+kinetics,architecture,0
+kinetics,design,0
+coworking,engineering,2
+coworking,architecture,15
+coworking,design,4
+dynamic simulation,engineering,18
+dynamic simulation,architecture,3
+dynamic simulation,design,0
+finance,engineering,19
+finance,architecture,1
+finance,design,1
+limit,engineering,1
+limit,architecture,17
+limit,design,3
+landmark,engineering,1
+landmark,architecture,16
+landmark,design,4
+SMA,engineering,21
+SMA,architecture,0
+SMA,design,0
+ecology,engineering,0
+ecology,architecture,13
+ecology,design,8
+pollution,engineering,14
+pollution,architecture,4
+pollution,design,3
+bank,engineering,18
+bank,architecture,2
+bank,design,1
+data,engineering,11
+data,architecture,2
+data,design,8
+prison,engineering,0
+prison,architecture,19
+prison,design,2
+stone,engineering,3
+stone,architecture,12
+stone,design,6
+supply chain finance,engineering,21
+supply chain finance,architecture,0
+supply chain finance,design,0
+movement,engineering,3
+movement,architecture,6
+movement,design,12
+barriers,engineering,20
+barriers,architecture,0
+barriers,design,1
+methane,engineering,21
+methane,architecture,0
+methane,design,0
+navigation,engineering,15
+navigation,architecture,4
+navigation,design,2
+Internet of things,engineering,19
+Internet of things,architecture,0
+Internet of things,design,1
+comparison,engineering,16
+comparison,architecture,3
+comparison,design,1
+greenhouse,engineering,5
+greenhouse,architecture,11
+greenhouse,design,4
+virtual reality,engineering,14
+virtual reality,architecture,5
+virtual reality,design,1
+regression rate,engineering,20
+regression rate,architecture,0
+regression rate,design,0
+gasification,engineering,20
+gasification,architecture,0
+gasification,design,0
+Rome,engineering,0
+Rome,architecture,19
+Rome,design,1
+cohousing,engineering,1
+cohousing,architecture,18
+cohousing,design,1
+hostel,engineering,4
+hostel,architecture,15
+hostel,design,1
+vulnerability,engineering,15
+vulnerability,architecture,5
+vulnerability,design,0
+globalization,engineering,10
+globalization,architecture,7
+globalization,design,3
+developing countries,engineering,14
+developing countries,architecture,4
+developing countries,design,2
+finite element,engineering,20
+finite element,architecture,0
+finite element,design,0
+events,engineering,3
+events,architecture,3
+events,design,14
+retrofit,engineering,10
+retrofit,architecture,8
+retrofit,design,2
+start-up,engineering,14
+start-up,architecture,4
+start-up,design,2
+distribution,engineering,17
+distribution,architecture,0
+distribution,design,3
+winery,engineering,0
+winery,architecture,19
+winery,design,1
+fluid dynamics,engineering,19
+fluid dynamics,architecture,0
+fluid dynamics,design,1
+pattern,engineering,7
+pattern,architecture,4
+pattern,design,9
+vibration,engineering,18
+vibration,architecture,0
+vibration,design,2
+wireless,engineering,18
+wireless,architecture,0
+wireless,design,2
+transportation,engineering,8
+transportation,architecture,9
+transportation,design,3
+microstructure,engineering,20
+microstructure,architecture,0
+microstructure,design,0
+device,engineering,13
+device,architecture,1
+device,design,6
+structural health monitoring,engineering,20
+structural health monitoring,architecture,0
+structural health monitoring,design,0
+privacy,engineering,13
+privacy,architecture,4
+privacy,design,3
+biomechanics,engineering,20
+biomechanics,architecture,0
+biomechanics,design,0
+environmental impact,engineering,18
+environmental impact,architecture,1
+environmental impact,design,1
+UAV,engineering,20
+UAV,architecture,0
+UAV,design,0
+interoperability,engineering,14
+interoperability,architecture,6
+interoperability,design,0
+slum,engineering,1
+slum,architecture,19
+slum,design,0

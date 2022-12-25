@@ -9,6 +9,7 @@ export function render(
   originalData,
   styles
 ) {
+  console.log(data)
   d3.select(svgNode)
     .selectAll('text')
     .data(data)
