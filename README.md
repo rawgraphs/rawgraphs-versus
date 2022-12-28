@@ -1,12 +1,12 @@
-# Custom Raw Chart(s)
+# Versus: a custom RAWGraphs chart
 
-## Install
+### Install
 
 ```sh
 npm install
 ```
 
-## Run Sandbox
+### Run Sandbox
 
 Develop your custom chart on your machine with livereload thanks to Webpack.
 
@@ -16,11 +16,11 @@ npm run sandbox
 
 You can find your charts at [http://localhost:9000](http://localhost:9000)
 
-For an in depth guide to add a chart see [this](https://github.com/rawgraphs/rawgraphs-charts/blob/master/docs/add-a-new-chart.md)
+-
 
 ## Build
 
-Build your chart to use it in RAW.
+Build your chart to use it in RAWGraphs.
 
 ```sh
 npm run build

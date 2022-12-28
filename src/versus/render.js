@@ -1,5 +1,6 @@
 import * as d3 from 'd3'
 import '../d3-styles.js'
+import { labelsOcclusion } from '@rawgraphs/rawgraphs-core'
 
 export function render(
   svgNode,
@@ -20,8 +21,13 @@ export function render(
     marginLeft,
     //chart
     nodePadding,
+    anticollision,
     groupsDiameter,
     maxItemsDiameter,
+    colorScale,
+    showLabels,
+    autoHideLabels,
+    groupsFillColor, // @TODO: check how to expose it as option
   } = visualOptions
 
   const margin = {
@@ -33,12 +39,25 @@ export function render(
 
   const chartWidth = width - margin.right - margin.left
   const chartHeight = height - margin.top - margin.bottom
+
   // compute radius
   const radius = (chartWidth < chartHeight ? chartWidth : chartHeight) / 2
 
   // select the svg node
-  const svg = d3
-    .select(svgNode)
+  const svg = d3.select(svgNode)
+
+  // add background
+  d3.select(svgNode)
+    .append('rect')
+    .attr('width', width)
+    .attr('height', height)
+    .attr('x', 0)
+    .attr('y', 0)
+    .attr('fill', background)
+    .attr('id', 'backgorund')
+
+  // add viz group
+  const vizGroup = svg
     .append('g')
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
     .attr('id', 'viz')
@@ -49,15 +68,6 @@ export function render(
   // select group nodes
   let groupNodes = graph.nodes.filter((d) => d.type == 'group')
   const groupNames = groupNodes.map((d) => d.name)
-
-  console.log(graph)
-  console.log(d3.max(graph.nodes, (d) => d.strength))
-
-  // define colors
-  let colorScale = d3
-    .scaleOrdinal()
-    .domain(groupNames)
-    .range(d3.schemeCategory10)
 
   // scele for edges strenghts
   let strengthScale = d3.scaleLinear(
@@ -97,9 +107,6 @@ export function render(
     d.color = d3.rgb(colr, colg, colb)
   })
 
-  // TODO: expose or remove
-  const forceNode = d3.forceManyBody().strength(-5)
-
   // define links (edges) force
   const forceLink = d3
     .forceLink(graph.edges)
@@ -127,8 +134,13 @@ export function render(
   const simulation = d3
     .forceSimulation(graph.nodes)
     .force('link', forceLink)
-    .force('collisionForce', forceCollide)
     .on('tick', ticked)
+
+  // add collision force according to options
+
+  if (anticollision) {
+    simulation.force('collisionForce', forceCollide)
+  }
 
   // run the simulation in background
   // @TODO move this to a web worker
@@ -147,7 +159,7 @@ export function render(
   //console.log("---------------end of simulation---------------")
 
   // draw nodes
-  const nodesLayer = svg
+  const nodesLayer = vizGroup
     .append('g')
     .attr('id', 'labelsLayer')
     .attr('id', 'nodes')
@@ -160,7 +172,7 @@ export function render(
   nodesLayer
     .filter((d) => d.type == 'group')
     .attr('r', groupsDiameter / 2)
-    .attr('fill', 'white')
+    .attr('fill', 'white') //@TODO: check how to expose a single color. See https://github.com/rawgraphs/rawgraphs-core/issues/67
     .attr('stroke', (d) => colorScale(d.name))
 
   // style item nodes
@@ -170,7 +182,7 @@ export function render(
     .attr('fill', (d) => d.color)
 
   // add labels
-  const labelsLayer = svg
+  const labelsLayer = vizGroup
     .append('g')
     .attr('id', 'labelsLayer')
     .attr('text-anchor', 'middle')
@@ -179,7 +191,18 @@ export function render(
     .data(graph.nodes)
     .join('g')
 
-  labelsLayer.append('text').text((d) => d.name)
+  // add texts according to option
+  if (showLabels) {
+    labelsLayer.append('text').text((d) => d.name)
+
+    labelsLayer.filter((d) => d.type == 'group').styles(styles.seriesLabel)
+    labelsLayer.filter((d) => d.type == 'item').styles(styles.labelPrimary)
+  }
+
+  // auto hide labels
+  if (autoHideLabels) {
+    labelsOcclusion(labelsLayer.selectAll('text'), (d) => sizeScale(d.strength))
+  }
 
   function ticked() {
     nodesLayer.attr('transform', (d) => 'translate(' + d.x + ',' + d.y + ')')

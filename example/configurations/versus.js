@@ -1,5 +1,5 @@
 import versus from 'customcharts/versus'
-import data from '../datasets/hello.csv'
+import data from '../datasets/keywords.csv'
 
 export default {
   chart: versus,
@@ -14,5 +14,5 @@ export default {
     item: { value: ['keyword'] },
     strength: { value: ['strength'] },
   },
-  visualOptions: {},
+  visualOptions: { anticollision: false },
 }
