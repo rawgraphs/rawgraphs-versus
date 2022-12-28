@@ -1,7 +1,61 @@
 export const visualOptions = {
-  color: {
-    type: 'color',
-    label: 'Color!!!',
-    default: '#a41c5b',
+  marginTop: {
+    type: 'number',
+    label: 'Margin (top)',
+    default: 10,
+    group: 'artboard',
+  },
+
+  marginRight: {
+    type: 'number',
+    label: 'Margin (right)',
+    default: 50,
+    group: 'artboard',
+  },
+
+  marginBottom: {
+    type: 'number',
+    label: 'Margin (bottom)',
+    default: 50,
+    group: 'artboard',
+  },
+
+  marginLeft: {
+    type: 'number',
+    label: 'Margin (left)',
+    default: 50,
+    group: 'artboard',
+  },
+
+  groupsDiameter: {
+    type: 'number',
+    label: 'Groups diameter',
+    default: 60,
+    group: 'chart',
+  },
+
+  maxItemsDiameter: {
+    type: 'number',
+    label: 'Max items diameter',
+    default: 20,
+    group: 'chart',
+  },
+
+  nodePadding: {
+    type: 'number',
+    label: 'Padding',
+    default: 1,
+    group: 'chart',
+  },
+
+  colorScale: {
+    type: 'colorScale',
+    label: 'Color scale',
+    dimension: 'group', // as called in the mapping
+    default: {
+      scaleType: 'ordinal',
+      interpolator: 'interpolateSpectral',
+    },
+    group: 'colors',
   },
 }

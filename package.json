@@ -1,6 +1,6 @@
 {
   "name": "rawgraphs-versus",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Versus visual model",
   "jsdelivr": "lib/index.umd.js",
   "unpkg": "lib/index.umd.js",
