@@ -66,7 +66,9 @@ export function render(
   // compute the graph
   let graph = graphFromEdgesTable(data)
   // select group nodes
-  let groupNodes = graph.nodes.filter((d) => d.type == 'group')
+  let groupNodes = graph.nodes
+    .filter((d) => d.type == 'group')
+    .sort((a, b) => d3.ascending(a.name, b.name))
   const groupNames = groupNodes.map((d) => d.name)
 
   // scele for edges strenghts
@@ -98,10 +100,10 @@ export function render(
     let colg = 0
     let colb = 0
 
-    groupNames.forEach((e) => {
-      colr += (d.components[e] / d.strength) * d3.color(colorScale(e)).r
-      colg += (d.components[e] / d.strength) * d3.color(colorScale(e)).g
-      colb += (d.components[e] / d.strength) * d3.color(colorScale(e)).b
+    d.components.forEach((e) => {
+      colr += (e.strength / d.strength) * d3.color(colorScale(e.name)).r
+      colg += (e.strength / d.strength) * d3.color(colorScale(e.name)).g
+      colb += (e.strength / d.strength) * d3.color(colorScale(e.name)).b
     })
 
     d.color = d3.rgb(colr, colg, colb)
@@ -228,10 +230,7 @@ function graphFromEdgesTable(_edgesTable) {
         type: v[0].type,
         id: v[0].id + '_' + v[0].type,
         strength: d3.sum(v, (d) => d.strength),
-        components: v.reduce(
-          (a, d) => ({ ...a, [d.component]: d.strength }),
-          {}
-        ),
+        components: v.map((d) => ({ name: d.component, strength: d.strength })),
       }),
       (d) => d.id + '_' + d.type
     )

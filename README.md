@@ -1,6 +1,14 @@
 # Versus: a custom RAWGraphs chart
 
-### Install
+## Install
+
+Download the latest release.
+
+Open
+
+## Edit the code
+
+### Install dependencies
 
 ```sh
 npm install
