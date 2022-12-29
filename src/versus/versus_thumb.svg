@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6ee52;
+      }
+
+      .cls-2 {
+        fill: #f7c652;
+      }
+
+      .cls-3 {
+        fill: #f88e53;
+      }
+
+      .cls-4 {
+        fill: #e89350;
+      }
+
+      .cls-5 {
+        fill: #ee7e51;
+      }
+
+      .cls-6 {
+        fill: #82236c;
+      }
+
+      .cls-7 {
+        fill: #83286d;
+      }
+
+      .cls-8 {
+        fill: #996784;
+      }
+
+      .cls-9 {
+        fill: #983d5f;
+      }
+
+      .cls-10 {
+        fill: #934466;
+      }
+
+      .cls-11 {
+        fill: #9e0142;
+      }
+
+      .cls-12 {
+        fill: #8c8f8f;
+      }
+
+      .cls-13 {
+        fill: #8e6c7b;
+      }
+
+      .cls-14 {
+        fill: #a88a6f;
+      }
+
+      .cls-15 {
+        fill: #bcb180;
+      }
+
+      .cls-16 {
+        fill: #d1d169;
+      }
+
+      .cls-17 {
+        fill: #c7e176;
+      }
+
+      .cls-18 {
+        fill: #748fa4;
+      }
+
+      .cls-19 {
+        fill: #5e4fa2;
+      }
+
+      .cls-20 {
+        fill: #786b94;
+      }
+
+      .cls-21 {
+        letter-spacing: -.05518em;
+      }
+
+      .cls-21, .cls-22 {
+        font-family: ArialMT, Arial;
+        font-size: 10px;
+        isolation: isolate;
+      }
+
+      .cls-23 {
+        stroke: #f6ee52;
+      }
+
+      .cls-23, .cls-24, .cls-25, .cls-26, .cls-27 {
+        fill: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-24 {
+        stroke: #f88e53;
+      }
+
+      .cls-25 {
+        stroke: #89cfa5;
+      }
+
+      .cls-26 {
+        stroke: #9e0142;
+      }
+
+      .cls-27 {
+        stroke: #5e4fa2;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <circle class="cls-23" cx="25.72431" cy="247.25764" r="17.81419"/>
+    <circle class="cls-17" cx="25.71994" cy="170.3845" r="13.27791"/>
+    <circle class="cls-25" cx="25.72431" cy="72.74236" r="17.81419"/>
+    <circle class="cls-1" cx="56.76529" cy="247.25764" r="11.22188"/>
+    <circle class="cls-26" cx="294.27569" cy="160" r="17.81419"/>
+    <circle class="cls-6" cx="262.45223" cy="89.07361" r="12.03413"/>
+    <circle class="cls-27" cx="191.69819" cy="18.81419" r="17.81419"/>
+    <circle class="cls-4" cx="150.70653" cy="255.28539" r="13.51294"/>
+    <circle class="cls-24" cx="191.69819" cy="301.18581" r="17.81419"/>
+    <circle class="cls-14" cx="128.10819" cy="138.97409" r="10.93774"/>
+    <circle class="cls-1" cx="45.54341" cy="263.79279" r="5.61094"/>
+    <circle class="cls-10" cx="205.00732" cy="117.79516" r="13.03865"/>
+    <circle class="cls-3" cx="183.87261" cy="270.20286" r="11.22188"/>
+    <circle class="cls-11" cx="268.39447" cy="172.50526" r="3.54867"/>
+    <circle class="cls-18" cx="110.27274" cy="47.03035" r="6.14648"/>
+    <circle class="cls-15" cx="98.06748" cy="172.18848" r="14.84515"/>
+    <circle class="cls-12" cx="125.71309" cy="84.09169" r="10.03716"/>
+    <circle class="cls-5" cx="207.92798" cy="274.85115" r="10.64601"/>
+    <circle class="cls-8" cx="180.66212" cy="120.06186" r="9.04737"/>
+    <circle class="cls-13" cx="153.10603" cy="107.09142" r="13.97113"/>
+    <circle class="cls-11" cx="268.78135" cy="161.56963" r="5.01858"/>
+    <circle class="cls-2" cx="92.02887" cy="267.4807" r="8.69243"/>
+    <circle class="cls-7" cx="238.70643" cy="103.76344" r="13.51294"/>
+    <circle class="cls-19" cx="217.2935" cy="22.01677" r="5.61094"/>
+    <circle class="cls-20" cx="160.98529" cy="61.84419" r="12.03413"/>
+    <circle class="cls-16" cx="53.99943" cy="191.18117" r="12.54645"/>
+    <circle class="cls-1" cx="34.55657" cy="199.63525" r="4.34622"/>
+    <circle class="cls-9" cx="215.17827" cy="143.56442" r="12.29296"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <text class="cls-22" transform="translate(22.11347 249.92463)"><tspan x="0" y="0">C</tspan></text>
+    <text class="cls-22" transform="translate(22.11347 75.40936)"><tspan x="0" y="0">D</tspan></text>
+    <text class="cls-21" transform="translate(290.93877 162.66748)"><tspan x="0" y="0">A</tspan></text>
+    <text class="cls-22" transform="translate(188.36344 21.48118)"><tspan x="0" y="0">E</tspan></text>
+    <text class="cls-22" transform="translate(188.36322 303.85281)"><tspan x="0" y="0">B</tspan></text>
+  </g>
+</svg>

@@ -60,6 +60,7 @@ export function render(
   const vizGroup = svg
     .append('g')
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+    .append('g')
     .attr('id', 'viz')
     .attr('transform', `translate(${chartWidth / 2}, ${chartHeight / 2})`)
 
