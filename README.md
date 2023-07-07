@@ -15,9 +15,19 @@ The visual model works better with a lower amount of attractors (3 or 4), or wit
 * Download the `versus.umd.js` file from the [latest release](https://github.com/rawgraphs/rawgraphs-versus/releases).
 * Open https://dev.rawgraphs.io/
 * Upload your dataset, or upload [this sample dataset for Versus](https://raw.githubusercontent.com/rawgraphs/rawgraphs-versus/master/example/datasets/five-categories.csv)
-* Scroll down the visual models list, click on `"Add your Chart!"`
-* In the popup window `Add a new custom chart`, upload the `versus.umd.js`
-* Enjoy!
+- Scroll down the visual models list, click on `Load yout chart`
+- In the popup window `Add a new custom chart`, upload the `versus.umd.js` file
+- Click on `Load your chart` button.
+- A pop-up will inform you that you are loading an external piece of code, click on `continue` to load it.
+- You are now ready to use the chart.
+
+## Tutorial
+
+TBD
+
+## Contribute
+
+If you'd like to contribute, follow the RAWGraphs [custom template guide](https://github.com/rawgraphs/custom-rawcharts-template).
 
 
 ## Edit the code
