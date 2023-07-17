@@ -10,6 +10,8 @@ The visual model displays bipartite graphs (composed by two kinds of nodes) in w
 
 The visual model works better with a lower amount of attractors (3 or 4), or with network whose strenghts are highly polarised.
 
+You can find an example of a similar approach employed to visualize the usage of words across three US broadcasts at the following link: https://pudding.cool/2018/01/chyrons/
+
 ## Install
 
 * Download the `versus.umd.js` file from the [latest release](https://github.com/rawgraphs/rawgraphs-versus/releases).
